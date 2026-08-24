@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Projeto HTML</title>
+</head>
+<body>
+	<h1>Primeiro Projeto HTML</h1>
+	<hr/>
+	<h2 id="indice">Indíce</h2>
+	<ul>
+		<li><a href="#historia-internet">A história da internet</a></li>
+		<li><a href="#tags-basicas">Tags Básicas</a></li>
+			<ol>
+				<li><a href="#tags-titulo">Tags de título</a></li>
+				<li><a href="#tags-paragrafo">Tags de parágrafo</a></li>
+				<li><a href="#tags-link">Tags de link</a></li>
+				<li><a href="#tags-lista">Tags de lista</a></li>
+				<li><a href="#tags-imagem">Tags de imagem</a></li>
+				<li><a href="#tags-formatacao">Tags de Formatação</a></li>
+			</ol>
+		<li><a href="#outras-tags">Outras Tags</a></li>
+	</ul>
+	<h2 id="historia-internet">A história da internet <small style="font-size: 0.7em; font-weight: normal;"><a href="#indice">Voltar ao índice</a></small></h2>
+	<p>A internet surgiu a partir de projetos de comunicação entre computadores, desenvolvidos nos Estados Unidos na década de 1960. Em 1989, Tim Berners-Lee criou a World Wide Web, facilitando o acesso a páginas e informações. Desde então, a internet evoluiu e passou a conectar pessoas, empresas e dispositivos em todo o mundo.</p>
+
+	<h2 id="tags-basicas">Tags Básicas <small style="font-size: 0.7em; font-weight: normal;"><a href="#indice">Voltar ao índice</a></small></h2>
+	<h3 id="tags-titulo">Tags de título <small style="font-size: 0.7em; font-weight: normal;"><a href="#indice">Voltar ao índice</a></small></h3>
+	<p>As tags <code>h1</code> a <code>h6</code> criam títulos e subtítulos em diferentes níveis de importância. Exemplos:</p>
+	<h1>Exemplo de título h1</h1>
+	<h2>Exemplo de título h2</h2>
+	<h3>Exemplo de título h3</h3>
+	<h4>Exemplo de título h4</h4>
+	<p>O código de um título é, por exemplo, <code>&lt;h1&gt;Título principal&lt;/h1&gt;</code>.</p>
+
+	<h3 id="tags-paragrafo">Tags de parágrafo <small style="font-size: 0.7em; font-weight: normal;"><a href="#indice">Voltar ao índice</a></small></h3>
+	<p>A tag <code>p</code> organiza um trecho de texto em um parágrafo. Exemplo: <code>&lt;p&gt;Este é um parágrafo.&lt;/p&gt;</code>.</p>
+	<p>Resultado: Este é um parágrafo.</p>
+
+	<h3 id="tags-link">Tags de link <small style="font-size: 0.7em; font-weight: normal;"><a href="#indice">Voltar ao índice</a></small></h3>
+	<p>A tag <code>a</code> cria links para outras páginas ou trechos do mesmo documento. Exemplo: <code>&lt;a href="#historia-internet"&gt;Visite a seção&lt;/a&gt;</code>.</p>
+	<p>Resultado: <a href="#historia-internet">Visite a seção</a>.</p>
+
+	<h3 id="tags-lista">Tags de lista <small style="font-size: 0.7em; font-weight: normal;"><a href="#indice">Voltar ao índice</a></small></h3>
+	<p>A tag <code>ul</code> cria uma lista não ordenada, enquanto <code>ol</code> cria uma lista numerada. Cada item usa a tag <code>li</code>. Exemplo: <code>&lt;ul&gt;&lt;li&gt;Primeiro item&lt;/li&gt;&lt;/ul&gt;</code>.</p>
+	<p>Resultado:</p>
+	<ul>
+		<li>Primeiro item</li>
+		<li>Segundo item</li>
+	</ul>
+
+	<h3 id="tags-imagem">Tags de imagem <small style="font-size: 0.7em; font-weight: normal;"><a href="#indice">Voltar ao índice</a></small></h3>
+	<p>A tag <code>img</code> exibe uma imagem usando o atributo <code>src</code>; o atributo <code>alt</code> descreve a imagem. Exemplo: <code>&lt;img src="https://www.fiat.com.br/content/dam/fiat/pulse-my26/assets-home/carrossel/pulse-my26-audace.webp" alt="Imagem de um carro"&gt;</code>.</p>
+	<p>Resultado:</p>
+	<img src="https://www.fiat.com.br/content/dam/fiat/pulse-my26/assets-home/carrossel/pulse-my26-audace.webp" alt="Imagem de um carro" width="300" style="max-width: 100%; height: auto;">
+
+	<h3 id="tags-formatacao">Tags de Formatação <small style="font-size: 0.7em; font-weight: normal;"><a href="#indice">Voltar ao índice</a></small></h3>
+	<p>Tags como <code>strong</code>, <code>em</code> e <code>mark</code> dão destaque ao texto. Exemplos: <code>&lt;strong&gt;importante&lt;/strong&gt;</code>, <code>&lt;em&gt;ênfase&lt;/em&gt;</code> e <code>&lt;mark&gt;marcado&lt;/mark&gt;</code>.</p>
+	<p>Resultado: <strong>importante</strong>, <em>ênfase</em> e <mark>marcado</mark>.</p>
+
+	<h2 id="outras-tags">Outras Tags <small style="font-size: 0.7em; font-weight: normal;"><a href="#indice">Voltar ao índice</a></small></h2>
+	<p>Estas tags são usadas para citações, observações, abreviações e correções em textos:</p>
+	<ul>
+		<li><code>blockquote</code>: destaca uma citação longa retirada de outra fonte. Exemplo: <code>&lt;blockquote&gt;O conhecimento transforma.&lt;/blockquote&gt;</code>. Resultado:
+			<blockquote>O conhecimento transforma.</blockquote>
+		</li>
+		<li><code>small</code>: exibe um texto com menor destaque, como uma observação ou informação complementar. Exemplo: <code>&lt;small&gt;Última atualização: 2026&lt;/small&gt;</code>. Resultado: <small>Última atualização: 2026</small>.</li>
+		<li><code>abbr</code>: representa uma abreviação e mostra seu significado completo quando o usuário passa o mouse sobre ela. Exemplo: <code>&lt;abbr title="HyperText Markup Language"&gt;HTML&lt;/abbr&gt;</code>. Resultado: <abbr title="HyperText Markup Language">HTML</abbr>.</li>
+		<li><code>del</code>: indica um texto que foi removido ou deixou de ser válido. Exemplo: <code>Preço antigo: &lt;del&gt;R$ 50,00&lt;/del&gt;</code>. Resultado: Preço antigo: <del>R$ 50,00</del>.</li>
+	</ul>
+</body>
+</html>
