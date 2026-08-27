@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Cadastro</title>
+  </head>
+  <body>
+    <form method="get">
+      <h3>Você selecionou: Pizza de Calabresa</h3>
+      <p>Quais Opcionais você deseja?</p>
+      <input type="checkbox" name="opcionais[]" value="queijo"> + Queijo<br>
+      <input type="checkbox" name="opcionais[]" value="calabresa"> + Calabresa<br>
+      <input type="checkbox" name="opcionais[]" value="azeitona"> + Azeitona<br>
+      <input type="checkbox" name="opcionais[]" value="cebola"> + Cebola<br>
+      <p>Quer Borda Recheada?</p>
+      <input type="radio" name="borda" value="sim"> Sim<br/>
+      <input type="radio" name="borda" value="nao"> Não<br/><br/>
+      <label> Bebida: </label>
+      <select name="bebida">
+        <option value="">Selecione uma Bebida</option>
+        <option value="suco">Suco</option>
+        <option value="refrigerante">Refrigerante</option>
+        <option value="agua">Água</option>
+        <option value="nenhuma">Nenhuma</option>
+      </select> <br/><br/>
+      <label> Observações: </label>
+      <textarea style="resize: none;" name="observacoes" rows="4" cols="50"></textarea><br/><br/>
+      <button type="submit">Enviar Pedido</button>
+    </form>
+  </body>
+</html>
