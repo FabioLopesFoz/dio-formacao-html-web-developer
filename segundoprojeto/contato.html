@@ -25,11 +25,40 @@
             </div>
     
             <div class="content"> 
-                <h2>Instituto de Saúde</h2>
+                <h2>Entre em Contato</h2>
 
-                <p>O Instituto de Saúde oferece atendimento médico humanizado e de qualidade para toda a família. Contamos com profissionais especializados em Clínica Geral, Pediatria, Psicologia e Oftalmologia, proporcionando cuidado integral, prevenção e acompanhamento da saúde em um ambiente acolhedor e seguro.</p>
+                <p>Precisa de mais informações ou deseja agendar uma consulta? Nossa equipe está pronta para atender você.</p>
+                
+                <form onsubmit="alert('Mensagem Enviada!')">
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" required><br><br>
 
-                <p><strong>Sua saúde e seu bem-estar são a nossa prioridade!</strong></p>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="assunto">Assunto:</label><br>
+                    <input type="text" id="assunto" name="assunto" required><br><br>
+
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
+
+                    <div class="form-actions">
+                        <button type="submit">Enviar</button>
+                        <button type="reset" onclick="alert('Formulário limpo!')">Limpar</button>
+                    </div>
+                </form>
+
+                <h3>Nossa Localização</h3>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d566.9628343769677!2d-54.58527785833763!3d-25.538736587512524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1788445864850!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                
+                <p><strong>Telefone:</strong> (45) 0000-0000</p>
+                <p><strong>E-mail:</strong> contato@institutodesaude.com.br</p>
+                <p><strong>Endereço:</strong> Rua Exemplo, 123 — Centro</p>
+
+                <p>Entre em contato conosco e encontre o melhor horário para o seu atendimento.</p>
+
+                <p><i>Instituto de Saúde — cuidado que faz a diferença.</i></p>
             </div>
     
             <div class="footer">
